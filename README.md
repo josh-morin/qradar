@@ -75,6 +75,20 @@ QRadar Setup
 
 ## Playbooks
 
+Usage:
+```
+$ ansible-playbook --ask-pass YourPlaybook.yml 
+```
+
+| Name | Description |
+| :--- | :--- |
+| deployment_info.yml | All appliances in QRadar deployment | 
+| qradar_log.yml | Last 20 lines of qradar and qradar error log files |
+| restart_hostcontext.yml | Restarts Hostcontext process | 
+| restart_tomcat.yml | Restarts Tomcat process |
+| system_usage.yml | Results from Disk Free, Free, and Netstat |
+
+
 ## Resources
 
 #### Resources & Content by IBM
