@@ -1,0 +1,28 @@
+---
+- hosts: qradar
+  remote_user: root
+  
+  tasks:
+  - name: Disk Free in readable format
+    shell: df -h
+    register: command_result1
+          
+  - name: Free memory displayed in Megabytes
+    shell: free -m
+    register: command_result2   
+    
+  - name: Ports with processes used 
+    shell: netstat -anp | grep tcp | grep LISTEN
+    register: command_result3      
+
+  - name: Return output from Disk Free
+    debug: msg="{{ command_result1.stdout_lines }}"
+    
+  - name: Return output from Free
+    debug: msg="{{ command_result2.stdout_lines }}"  
+    
+  - name: Return output from Netstat
+    debug: msg="{{ command_result3.stdout_lines }}"      
+     
+        
+...

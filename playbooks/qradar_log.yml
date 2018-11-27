@@ -1,0 +1,14 @@
+---
+- hosts: qradar
+  remote_user: root
+  
+  
+  tasks:
+  - name: Last twenty lines of qradar and qradar error log files
+    shell: /usr/bin/tail -n 20 /var/log/qradar.log /var/log/qradar.error
+    register: command_result
+           
+  - name: Return standard output
+    debug: msg="{{ command_result.stdout_lines }}"   
+           
+...

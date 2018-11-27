@@ -1,0 +1,14 @@
+---
+- hosts: qradar
+  remote_user: root
+  
+  tasks:
+  - systemd:
+      state: restarted
+      daemon_reload: yes
+      name: hostcontext
+    
+...
+
+
+

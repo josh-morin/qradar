@@ -1,0 +1,14 @@
+---
+- hosts: qradar
+  remote_user: root
+  
+  
+  tasks:
+  - name: All appliances in QRadar deployment
+    shell: psql -U qradar -c "select * from managedhost;"
+    register: command_result
+           
+  - name: Return standard output
+    debug: msg="{{ command_result.stdout_lines }}"   
+           
+...
