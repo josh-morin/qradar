@@ -4,6 +4,7 @@
   * [Installer](#installer)
 - [Universal Scripts](#universal-scripts)
   * [Short Message Service](#short-message-service)
+- [Playbooks](#playbooks)  
 - [Resources](#resources)
     + [Resources & Content by IBM](#resources---content-by-ibm)
     + [Unofficial Resources](#unofficial-resources)
@@ -71,6 +72,8 @@ QRadar Setup
 4. Click _Add_
 5. Click _Save_
 
+
+## Playbooks
 
 ## Resources
 
