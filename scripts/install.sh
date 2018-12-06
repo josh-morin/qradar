@@ -11,47 +11,41 @@ while true; do
   cat << _EOF_
 Please Select:
 
-1. System update 
-2. Disable SELinux
-3. QRadar CE install
-4. Set admin password
-5. Restart Tomcat process 
-6. System reboot
+1. Disable SELinux
+2. QRadar CE install
+3. Set admin password
+4. Restart Tomcat process 
+5. System reboot
 0. Quit
 
 _EOF_
 
-  read -p "Enter selection [0-6] > "
+  read -p "Enter selection [0-5] > "
 
-  if [[ $REPLY =~ ^[0-6]$ ]]; then
+  if [[ $REPLY =~ ^[0-5]$ ]]; then
     case $REPLY in
       1)
-        yum -y update && yum -y upgrade
-        sleep $DELAY
-        continue
-        ;;
-      2)
 	  	sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config && cat /etc/selinux/config && reboot
         sleep $DELAY
         ;;
-      3)
+      2)
         mkdir -p /media/cdrom
         sudo mount -o loop /tmp/QRadarCE7_3_1.GA.iso /media/cdrom
         sudo /media/cdrom/setup
         sleep $DELAY
         continue
         ;;
-      4)
+      3)
         sudo /opt/qradar/support/changePasswd.sh -a
         sleep $DELAY
         continue
         ;;
-      5)
+      4)
         sudo systemctl restart tomcat
         sleep $DELAY
         continue
         ;;
-      6)
+      5)
         sudo systemctl reboot
         sleep $DELAY
         ;;
