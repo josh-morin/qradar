@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is a configuration file to add custom actions into the IP address right-click menu.
+-->
+<contextMenu>
+        <menuEntry name="Nmap Scan -A -T4" exec="/usr/bin/nmap -A -T4 %IP%" />
+        <menuEntry name="Ping" exec="/bin/ping -c 5 %IP%" />
+        <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
+        <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
+        	<menuEntry name="AbuseIPDB" url="https://abuseipdb.com/check/%IP%" />
+			<menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
+			<menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
+			<menuEntry name="DShield" url="http://www.dshield.org/ipinfo.html?ip=%IP%" />
+			<menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
+			<menuEntry name="McAfee" url="https://www.mcafee.com/threat-intelligence/ip/default.aspx?ip=%IP%" />
+			<menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
+			<menuEntry name="Ransomware Tracker" url="https://ransomwaretracker.abuse.ch/host/%IP%" />
+			<menuEntry name="ReputationAuthority" url="http://www.reputationauthority.org/lookup.php?ip=%IP%" />
+			<menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
+</contextMenu>
