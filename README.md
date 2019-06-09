@@ -63,9 +63,12 @@ The following options are included:
 * DShield			
 * IPVoid
 * McAfee
+* MxToolBox Blacklist
 * Project Honey Pot
 * Ransomware Tracker
 * ReputationAuthority
+* Threat Crowd
+* ThreatMiner
 * VirusTotal
 
 ## Community Edition Scripts
