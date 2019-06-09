@@ -13,8 +13,11 @@ This is a configuration file to add custom actions into the IP address right-cli
 			<menuEntry name="DShield" url="http://www.dshield.org/ipinfo.html?ip=%IP%" />
 			<menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
 			<menuEntry name="McAfee" url="https://www.mcafee.com/threat-intelligence/ip/default.aspx?ip=%IP%" />
+			<menuEntry name="MxToolBox Blacklist" url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%" />
 			<menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
 			<menuEntry name="Ransomware Tracker" url="https://ransomwaretracker.abuse.ch/host/%IP%" />
 			<menuEntry name="ReputationAuthority" url="http://www.reputationauthority.org/lookup.php?ip=%IP%" />
+			<menuEntry name="Threat Crowd" url="https://threatcrowd.org/ip.php?ip=%IP%" />
+			<menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
 			<menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
 </contextMenu>
