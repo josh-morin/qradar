@@ -26,6 +26,8 @@ $ ansible-playbook --ask-pass YourPlaybook.yml
 ## COVID-19 Watchlist
 A COVID-19 related domains list that can be used as a [Reference Set](https://www.ibm.com/support/knowledgecenter/SS42VS_7.4.0/com.ibm.qradar.doc/c_qradar_adm_refdata_ui.html) to alert on malicious activity associated with these domains. 
 
+Note: Not every hostname or domain maybe malicious.
+
 [COVID_19_Watchlist.csv](https://github.com/josh-morin/qradar/blob/master/COVID-19/COVID_19_Watchlist.csv)
 
 ## Custom Action Scripts
