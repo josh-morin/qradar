@@ -2,7 +2,6 @@
 - [Ansible Playbooks](#ansible-playbooks)
 - [Custom Action Scripts](#custom-action-scripts)
 - [Custom Configurations](#custom-configurations)
-- [Community Edition Scripts](#community-edition-scripts)
 - [Resources](#resources)
 
 ---
@@ -70,41 +69,6 @@ The following options are included:
 * Threat Crowd
 * ThreatMiner
 * VirusTotal
-
-## Community Edition Scripts
-
-### Installer
-
-#### [install.sh](https://github.com/josh-morin/qradar/blob/master/scripts/install.sh)
-This bash script will help with setup and installation of QRadar CE 731 GA. 
-
-
-Setup
-1. Upload `install.sh` to the `tmp` directory where you placed the QRadar ISO. 
-2. Run the install bash script by using sh. Example: `sh install.sh`
-
-Operation
-
-| Options | Description |
-| :--- | :--- |
-| System update | Performs a system update of CentOS/RHEL | 
-| Disable SELinux | Disables SELinux and reboots CentOS/RHEL |
-| QRadar CE install | Mounting ISO and start QRadar CE installation | 
-| Set admin password | Launch changePasswd script |
-| Restart Tomcat process | Restarts the Tomcat process |
-| System reboot | Restarts CentOS/RHEL |
-
-Notes
-* You will need to have the host operating system running before using this script. 
-* After disabling SELinux the auto-rebooting is performed to allow disablement of SELinux to take effect. 
-  - This is required and found in the official documentation under "Installing an operating system for QRadar Community Edition."
-* Selection #3 will be selected twice due to system reboot for a kernel update. I added selection #6 for this purpose. 
-  - Details can be found in the official documentation under "Installing an operating system for QRadar Community Edition."
-* Added the changePasswd script as requested in the official documentation. 
-* Added restarting of the Tomcat process as requested in the official documentation. 
-  - Restarting the Tomcat process can take some time. You will see a blinking underscore cursor below the script selection menu until its finished. 
-* During installation, it might appear to stall out at the following: `Console setup, stopped services: host context http tomcat hostservices.`  Press enter, and it will proceed to `applying template Enterprise.`  
-
 
 ## Resources
 
