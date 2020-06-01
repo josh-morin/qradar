@@ -8,14 +8,13 @@ This is a configuration file to add custom actions into the IP address right-cli
         <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
         <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
         	<menuEntry name="AbuseIPDB" url="https://abuseipdb.com/check/%IP%" />
-			<menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
 			<menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
+			<menuEntry name="DNSlytics" url="https://dnslytics.com/ip/%IP%" />
 			<menuEntry name="DShield" url="http://www.dshield.org/ipinfo.html?ip=%IP%" />
+			<menuEntry name="Google Safe Browsing" url="https://transparencyreport.google.com/safe-browsing/search?url=%IP%" />
 			<menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
-			<menuEntry name="McAfee" url="https://www.mcafee.com/threat-intelligence/ip/default.aspx?ip=%IP%" />
 			<menuEntry name="MxToolBox Blacklist" url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%" />
 			<menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
-			<menuEntry name="Ransomware Tracker" url="https://ransomwaretracker.abuse.ch/host/%IP%" />
 			<menuEntry name="ReputationAuthority" url="http://www.reputationauthority.org/lookup.php?ip=%IP%" />
 			<menuEntry name="Threat Crowd" url="https://threatcrowd.org/ip.php?ip=%IP%" />
 			<menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
