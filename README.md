@@ -28,7 +28,7 @@ A COVID-19 related domains list that can be used as a [Reference Set](https://ww
 
 Note: Not every hostname or domain maybe malicious.
 
-[COVID_19_Watchlist.csv](https://github.com/josh-morin/qradar/blob/master/COVID-19/COVID_19_Watchlist.csv)
+[COVID_19_Watchlist.txt](https://github.com/josh-morin/qradar/blob/master/COVID-19/COVID_19_Watchlist.txt)
 
 ## Custom Action Scripts
 
