@@ -1,5 +1,4 @@
 ## Contents
-- [COVID-19 Watchlist](#covid-19-watchlist)
 - [Ansible Playbooks](#ansible-playbooks)
 - [Custom Action Scripts](#custom-action-scripts)
 - [Custom Configurations](#custom-configurations)
@@ -21,14 +20,6 @@ $ ansible-playbook --ask-pass YourPlaybook.yml
 | restart_hostcontext.yml | Restarts Hostcontext process | 
 | restart_tomcat.yml | Restarts Tomcat process |
 | system_usage.yml | Results from Disk Free, Free, and Netstat |
-
-
-## COVID-19 Watchlist
-A COVID-19 related domains list that can be used as a [Reference Set](https://www.ibm.com/support/knowledgecenter/SS42VS_7.4.0/com.ibm.qradar.doc/c_qradar_adm_refdata_ui.html) to alert on malicious activity associated with these domains. 
-
-Note: Not every hostname or domain maybe malicious.
-
-[COVID_19_Watchlist.txt](https://github.com/josh-morin/qradar/blob/master/COVID-19/COVID_19_Watchlist.txt)
 
 ## Custom Action Scripts
 
@@ -63,17 +54,18 @@ To add these entries into the right-click menu, copy this file into `/opt/qradar
 
 The following options are included:
 * Nmap
-* Ping       
+* Ping
 * Traceroute
+* X-Force Exchange
 * AbuseIPDB
-* AlienVault OTX			
+* Censys
 * Cisco Talos
-* DShield			
+* DNSlytics
+* DShield
+* Google Safe Browsing
 * IPVoid
-* McAfee
 * MxToolBox Blacklist
 * Project Honey Pot
-* Ransomware Tracker
 * ReputationAuthority
 * Threat Crowd
 * ThreatMiner
