@@ -11,6 +11,7 @@ github.com/josh-morin
         <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
         <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
         	<menuEntry name="AbuseIPDB" url="https://abuseipdb.com/check/%IP%" />
+			<menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
         	<menuEntry name="Censys" url="https://censys.io/ipv4/%IP%" />
 			<menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
 			<menuEntry name="DNSlytics" url="https://dnslytics.com/ip/%IP%" />
@@ -19,7 +20,6 @@ github.com/josh-morin
 			<menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
 			<menuEntry name="MxToolBox Blacklist" url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%" />
 			<menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
-			<menuEntry name="ReputationAuthority" url="http://www.reputationauthority.org/lookup.php?ip=%IP%" />
 			<menuEntry name="Threat Crowd" url="https://threatcrowd.org/ip.php?ip=%IP%" />
 			<menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
 			<menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
