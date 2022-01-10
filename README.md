@@ -58,15 +58,16 @@ The following options are included:
 * Traceroute
 * X-Force Exchange
 * AbuseIPDB
+* AlienVault OTX
 * Censys
 * Cisco Talos
 * DNSlytics
 * DShield
 * Google Safe Browsing
+* GreyNoise
 * IPVoid
 * MxToolBox Blacklist
 * Project Honey Pot
-* ReputationAuthority
 * Threat Crowd
 * ThreatMiner
 * VirusTotal
