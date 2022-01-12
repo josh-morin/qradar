@@ -12,7 +12,7 @@ github.com/josh-morin
         <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
         	<menuEntry name="AbuseIPDB" url="https://abuseipdb.com/check/%IP%" />
 			<menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
-        	<menuEntry name="Censys" url="https://censys.io/ipv4/%IP%" />
+        	<menuEntry name="Censys" url="https://search.censys.io/hosts/%IP%" />
 			<menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
 			<menuEntry name="DNSlytics" url="https://dnslytics.com/ip/%IP%" />
 			<menuEntry name="DShield" url="http://www.dshield.org/ipinfo.html?ip=%IP%" />
