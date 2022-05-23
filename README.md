@@ -68,6 +68,7 @@ The following options are included:
 * IPVoid
 * MxToolBox Blacklist
 * Project Honey Pot
+* RiskIQ
 * Threat Crowd
 * ThreatMiner
 * VirusTotal
