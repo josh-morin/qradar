@@ -6,7 +6,7 @@ github.com/josh-morin
 
 -->
 <contextMenu>
-        <menuEntry name="Nmap Scan -A -T4" exec="/usr/bin/nmap -A -T4 %IP%" />
+        <menuEntry name="Nmap Scan -A -T4" exec="/bin/nmap -A -T4 %IP%" />
         <menuEntry name="Ping" exec="/bin/ping -c 5 %IP%" />
         <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
         <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
