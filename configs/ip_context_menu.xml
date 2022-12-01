@@ -21,8 +21,7 @@ github.com/josh-morin
             <menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
             <menuEntry name="MxToolBox Blacklist" url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%" />
             <menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
-            <menuEntry name="RiskIQ" url="https://www.riskiq.com/lookup/%IP%" />
-            <menuEntry name="Threat Crowd" url="https://threatcrowd.org/ip.php?ip=%IP%" />
+            <menuEntry name="Shodan" url="https://www.shodan.io/host/%IP%" />
             <menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
             <menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
 </contextMenu>
