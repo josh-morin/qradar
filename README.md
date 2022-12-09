@@ -76,7 +76,7 @@ The following options are included:
 * [QRadar Insights Blog](https://qradarinsights.com/)
 
 #### Disclaimer
-All content such as Ansible Playbooks, Bash, and Python scripts our without warranty of any kind. Use them at your own risk. I assume no liability for the accuracy, correctness, completeness, usefulness, or any damages.
+All content is without warranty of any kind. Use at your own risk. I assume no liability for the accuracy, correctness, completeness, usefulness, or any damages.
 
 IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies.
 
