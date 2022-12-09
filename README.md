@@ -1,31 +1,16 @@
 ## Contents
-- [Ansible Playbooks](#ansible-playbooks)
 - [Custom Action Scripts](#custom-action-scripts)
 - [Custom Configurations](#custom-configurations)
+- [Remote Tasks](#remote-tasks)
 - [Resources](#resources)
 
 ---
-
-## Ansible Playbooks
-
-Usage:
-```
-$ ansible-playbook --ask-pass YourPlaybook.yml 
-```
-
-| Name | Description |
-| :--- | :--- |
-| deployment_info.yml | All appliances in QRadar deployment | 
-| qradar_log.yml | Last 20 lines of qradar and qradar error log files |
-| restart_hostcontext.yml | Restarts Hostcontext process | 
-| restart_tomcat.yml | Restarts Tomcat process |
-| system_usage.yml | Results from Disk Free, Free, and Netstat |
 
 ## Custom Action Scripts
 
 ### Short Message Service
 
-#### [sms.sh](https://github.com/josh-morin/qradar/blob/master/scripts/sms.sh)
+#### [sms.sh](https://github.com/josh-morin/qradar/blob/master/action_scripts/sms.sh)
 Send text messages from QRadar ”Custom Actions” using Twilio API in a bash file. 
 
 Setup
@@ -69,8 +54,12 @@ The following options are included:
 * MxToolBox Blacklist
 * Project Honey Pot
 * Shodan
+* Spamhaus Reputation Checker
 * ThreatMiner
 * VirusTotal
+
+## Remote Tasks
+
 
 ## Resources
 
