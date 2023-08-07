@@ -34,6 +34,23 @@ QRadar Setup
 
 ## Custom Configurations
 
+#### [arielRightClick.properties](https://github.com/josh-morin/qradar/blob/master/configs/arielRightClick.properties)
+To add these entries into the ariel right-click menu, copy this file into `/opt/qradar/conf` and restart tomcat.
+
+The following options are included:
+* Bluecoat
+* Cisco Talos
+* DomainTools
+* Google Cached View
+* LOLBAS
+* Maclookup
+* Robtex
+* SpeedGuide
+* ThreatCrowd
+* URLVoid
+* Userstack
+* VeriSign
+
 #### [ip_context_menu.xml](https://github.com/josh-morin/qradar/blob/master/configs/ip_context_menu.xml)
 To add these entries into the right-click menu, copy this file into `/opt/qradar/conf` and restart tomcat.
 
@@ -56,6 +73,7 @@ The following options are included:
 * Robtex
 * Shodan
 * Spamhaus Reputation Checker
+* ThreatCrowd
 * ThreatMiner
 * VirusTotal
 

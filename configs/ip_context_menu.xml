@@ -21,7 +21,8 @@ github.com/josh-morin
             <menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
             <menuEntry name="Robtex" url="https://www.robtex.com/ip-lookup/%IP%" />
             <menuEntry name="Shodan" url="https://www.shodan.io/host/%IP%" />
-            <menuEntry name="Spamhaus" url="https://check.spamhaus.org/listed?searchterm=103.232.200.125%IP%" />
+            <menuEntry name="Spamhaus" url="https://check.spamhaus.org/listed?searchterm=%IP%" />
+            <menuEntry name="ThreatCrowd" url="http://ci-www.threatcrowd.org/ip.php?ip=%IP%" />
             <menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
             <menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
 </contextMenu>
