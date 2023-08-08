@@ -83,11 +83,9 @@ The following options are included:
 ## Resources
 
 #### Resources & Content by IBM
-* [QRadar](https://www.ibm.com/us-en/marketplace/ibm-qradar-siem)
-* [QRadar Community Edition](https://developer.ibm.com/qradar/ce/)
-* [DeveloperWorks](https://ibm.biz/qradarforums)
+* [QRadar](https://www.ibm.com/products/qradar-siem)
+* [QRadar 101](https://www.ibm.com/community/qradar/)
 * [Github](https://github.com/ibm-security-intelligence)
-* [Youtube](https://www.youtube.com/user/IBMSecuritySupport)
 * [Reddit](https://www.reddit.com/r/QRadar/)
 
 #### Unofficial Resources
