@@ -1,7 +1,7 @@
 ## Contents
 - [Custom Action Scripts](#custom-action-scripts)
 - [Custom Configurations](#custom-configurations)
-- [Remote Tasks](#remote-tasks)
+- [Remote Automation](#remote-tasks)
 - [Resources](#resources)
 
 ---
@@ -77,7 +77,7 @@ The following options are included:
 * ThreatMiner
 * VirusTotal
 
-## Remote Tasks
+## Remote Automation
 
 
 ## Resources
