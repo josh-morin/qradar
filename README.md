@@ -1,7 +1,7 @@
 ## Contents
 - [Custom Action Scripts](#custom-action-scripts)
 - [Custom Configurations](#custom-configurations)
-- [Remote Automation](#remote-tasks)
+- [Remote Automation](#remote-automation)
 - [Resources](#resources)
 
 ---
