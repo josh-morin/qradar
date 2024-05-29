@@ -79,6 +79,8 @@ The following options are included:
 
 ## Remote Automation
 
+#### [qradar_check.py](https://github.com/josh-morin/qradar/blob/master/remote_automation/qradar_check.py)
+Gathers information and presents an HTML status report about your QRadar deployment. 
 
 ## Resources
 
