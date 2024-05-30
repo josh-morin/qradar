@@ -14,7 +14,7 @@ ip_address = 'qradar console ip address here'
 
 endpoints = [
     f'https://{ip_address}/api/system/about',
-    f'https://{ip_address}/api/usermanagement/users'
+    f'https://{ip_address}/api/usermanagement/users',
     f'https://{ip_address}/api/system/notifications',
     f'https://{ip_address}/api/config/deployment/licenses',
     f'https://{ip_address}/api/config/deployment/license_pool',
@@ -24,7 +24,7 @@ endpoints = [
     f'https://{ip_address}/api/system/servers',
     f'https://{ip_address}/api/configuration/log_sources?fields=description%2Cenabled',
     f'https://{ip_address}/api/gui_app_framework/applications?fields=application_state(status)%2Cmanifest(description)',
-    f'https://{ip_address}/api/health_data/security_data_count',
+    f'https://{ip_address}/api/health_data/security_data_count'
 ]
 
 responses = {}
