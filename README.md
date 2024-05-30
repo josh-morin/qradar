@@ -86,7 +86,7 @@ Gathers information and presents an HTML status report about your QRadar deploym
 
 #### Resources & Content by IBM
 * [QRadar](https://www.ibm.com/products/qradar-siem)
-* [QRadar 101](https://www.ibm.com/community/qradar/)
+* [QRadar 101](https://www.ibm.com/community/101/qradar/)
 * [Reddit](https://www.reddit.com/r/QRadar/)
 
 #### Unofficial Resources
