@@ -10,18 +10,20 @@ github.com/josh-morin
         <menuEntry name="X-Force Exchange" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
             <menuEntry name="AbuseIPDB" url="https://abuseipdb.com/check/%IP%" />
             <menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
+            <menuEntry name="BGPView" url="https://bgpview.io/ip/%IP%" />
             <menuEntry name="Censys" url="https://search.censys.io/hosts/%IP%" />
             <menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
             <menuEntry name="DNSlytics" url="https://dnslytics.com/ip/%IP%" />
             <menuEntry name="DShield" url="http://www.dshield.org/ipinfo.html?ip=%IP%" />
             <menuEntry name="Google" url="https://transparencyreport.google.com/safe-browsing/search?url=%IP%" />
             <menuEntry name="GreyNoise" url="https://viz.greynoise.io/ip/%IP%" />
+            <menuEntry name="Hacked IP" url="https://www.hackedip.org/check.php?ip=%IP%" />
             <menuEntry name="IPVoid" url="http://www.ipvoid.com/scan/%IP%" />
             <menuEntry name="MxToolBox" url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%" />
             <menuEntry name="Project Honey Pot" url="https://www.projecthoneypot.org/ip_%IP%" />
             <menuEntry name="Robtex" url="https://www.robtex.com/ip-lookup/%IP%" />
             <menuEntry name="Shodan" url="https://www.shodan.io/host/%IP%" />
-            <menuEntry name="Spamhaus" url="https://check.spamhaus.org/listed?searchterm=%IP%" />
+            <menuEntry name="Spamhaus" url="https://check.spamhaus.org/results?query=%IP%" />
             <menuEntry name="ThreatCrowd" url="http://ci-www.threatcrowd.org/ip.php?ip=%IP%" />
             <menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
             <menuEntry name="VirusTotal" url="https://www.virustotal.com/#/ip-address/%IP%" />
