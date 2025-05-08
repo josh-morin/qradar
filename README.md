@@ -77,6 +77,10 @@ The following options are included:
 * ThreatMiner
 * VirusTotal
 
+
+#### [network_hierarchy.json](https://github.com/josh-morin/qradar/blob/master/configs/network_hierarchy.json)
+This is a starter template for Network hierarchy with "Address-Methods" that contains Loopback addresses, Multicast, and Unicast via IPv4 and IPv6. It also has the default "Net-10-172-192" only. Always remember to add geo coordinates. 
+
 ## Remote Automation
 
 #### [qradar_check.py](https://github.com/josh-morin/qradar/blob/master/remote_automation/qradar_check.py)
